@@ -1,3 +1,5 @@
 # Python Learning
 
-The graveyard of my python scripts I am using to learn python.
+The graveyard of my python scripts I am writing to learn python.
+
+I hope to one day be able to look back at this and remember where it all started.
