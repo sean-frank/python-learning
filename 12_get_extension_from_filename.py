@@ -27,3 +27,18 @@
 """
 
 # Code goes here
+user_input = input("Please enter a filename including the extenstion: ")
+
+def split_name(filename):
+    dot_starting = filename.find('.') ##will save location of where the '.' is.
+    if dot_starting >= 0: 
+        print("Filename: " + filename[:dot_starting])
+        print("Extension: " + filename[dot_starting +1:])
+    else:
+        print("Filename: " + filename)
+        print("Extension: ")
+        
+split_name(user_input)
+
+
+
