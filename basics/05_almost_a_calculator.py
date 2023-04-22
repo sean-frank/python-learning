@@ -1,4 +1,8 @@
-## 5. Write a program that asks the user to select a basic arithmetic operation like addition, subtraction, multiplication, or division; asking the user for 2 integers that will be used in the arithmetic. Output to the user the arithmetic and its value. An example "112 x 111 = 12432". *No modules/packages allowed*
+"""
+5. Write a program that asks the user to select a basic arithmetic operation like addition, subtraction, multiplication, or division;
+asking the user for 2 integers that will be used in the arithmetic. Output to the user the arithmetic and its value.
+An example "112 x 111 = 12432". *No modules/packages allowed*
+"""
 
 first_num = int(input("Please enter your first number."))
 operator = input("Please enter the operator you would like to use. (ex. +, -, *, / )")

@@ -1,5 +1,11 @@
-## Write a program that asks the user to select a basic arithmetic operation like addition, subtraction, multiplication, or division; asking the user for 2 numbers of **any type** that 
-## will be used in the arithmetic. Output to the user the arithmetic and its value, decimals should be rounded to the 2nd decimal place, An example `"112 x 111 = 12432"`, `"3.1415 / 2 = 1.57"`. **No modules/packages allowed**
+"""
+Write a program that asks the user to select a basic arithmetic operation like addition, subtraction, 
+multiplication, or division; asking the user for 2 numbers of **any type** that 
+will be used in the arithmetic. Output to the user the arithmetic and its value, 
+decimals should be rounded to the 2nd decimal place, 
+An example `"112 x 111 = 12432"`, `"3.1415 / 2 = 1.57"`. 
+**No modules/packages allowed**
+"""
 
 num1 = input("Enter your first number: ")
 operator = input("Enter any operator (ex. +,-,*,/ ): ")

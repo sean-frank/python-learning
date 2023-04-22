@@ -1,6 +1,9 @@
+"""
+    Create a rock paper scissors game.
+"""
+
 import random
 
-# Make a two-player Rock-Paper-Scissors game. 
 options = [
     "rock",     # rock:scissor = rock, rock:paper = paper 
     "paper",    # paper:rock = paper, paper:scissor = scissor
