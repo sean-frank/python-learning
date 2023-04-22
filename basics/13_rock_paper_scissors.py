@@ -30,7 +30,7 @@ elif user_input == options[2]: # user input scissor
     else:
         userwin = True
 else: 
-    print("Ya moms a hoe.")
+    print("Please enter a correct option.")
     exit(1)
 
 if draw == True:
@@ -38,5 +38,5 @@ if draw == True:
 elif userwin == True:
     print("Congrats you win!")
 else:
-    print("L nerd u suck")
+    print("U lose!")
 

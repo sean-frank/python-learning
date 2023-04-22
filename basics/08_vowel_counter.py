@@ -1,16 +1,18 @@
-# Program Name: Vowel Counter
-# Processing: Program asks for a users name and checks whether the name
-#             contains a vowel. Output each vowel that they have in their 
-#             name and the number of each vowel in their name.
-# Sample Input:
-# Enter your name: John Smith
-# Sample Output:
-#     Your name contains the following vowels:
-#     a: 0
-#     e: 0
-#     i: 1
-#     o: 1
-#     u: 0
+"""
+Program Name: Vowel Counter
+Processing: Program asks for a users name and checks whether the name
+            contains a vowel. Output each vowel that they have in their 
+            name and the number of each vowel in their name.
+Sample Input:
+Enter your name: John Smith
+Sample Output:
+    Your name contains the following vowels:
+    a: 0
+    e: 0
+    i: 1
+    o: 1
+    u: 0
+"""
 
 name = input("Enter your first and last name: ")
 
