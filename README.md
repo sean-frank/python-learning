@@ -1,5 +1,14 @@
-# Python Learning
+# My Python Learning Journey
 
-The graveyard of my python scripts I am writing to learn python.
+This is a collection of Python scripts I created while learning Python. These scripts cover a variety of topics and are intended to help others who are also learning Python. 
 
-I hope to one day be able to look back at this and remember where it all started.
+## Table of Contents
+
+- [Basics](#basics)
+
+
+## Basics
+
+Scripts intended to help teach the basics of data type maniupalation and structuring code.
+
+
