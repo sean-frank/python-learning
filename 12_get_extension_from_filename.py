@@ -28,7 +28,13 @@
 
 # Code goes here
 #user_input = input("Please enter a filename including the extension: ")
-user_input = "test.py java.exe list.sh"
-first_split = user_input.split('.')
-print(first_split)
+user_input = "sean"
+file_name_split = user_input.split('.')
+if len(file_name_split) > 1:
+    print('Filename: ', file_name_split[0])
+    print('Extension: ', file_name_split[1])
+else:
+    print('Filename: ', file_name_split[0])
+    print('Extension: ')
+
 
