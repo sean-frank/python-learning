@@ -3,6 +3,7 @@
 with the output being a new list that consists only the first and last elements of the list. Do not use modules/packages. 
 """
 
+# Code goes here
 starting_list = [11, 24, 102, 444, 1213, 4, 1] ##should be able to input any list of numbers.
 list_length = len(starting_list)
 first_point = starting_list[0]

@@ -14,8 +14,8 @@ Sample Output:
     u: 0
 """
 
+# Code goes here
 name = input("Enter your first and last name: ")
-
 
 a_count = name.upper().count("A")
 e_count = name.upper().count("E")

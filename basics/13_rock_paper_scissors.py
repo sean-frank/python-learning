@@ -2,6 +2,7 @@
     Create a rock paper scissors game.
 """
 
+# Code goes here
 import random
 
 options = [
