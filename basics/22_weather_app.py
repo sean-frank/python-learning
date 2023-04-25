@@ -1,11 +1,8 @@
 import requests, json
-
-api_key = 'null'
-query = input("Enter the city in which you would like to get the current forecast: ")
-link = f"http://api.weatherapi.com/v1/current.json?key={api_key}&q={query}&aqi=no"
-results = requests.get(link).json()
-current_weather_data = results['current' ]['condition']['text']).lower().strip('"')
-region_data = results['location']['region']).strip('"')
-name_data = results['location']['name']).strip('"')
-
-print(f"The current weather in {name_data}, {region_data} is {current_weather_data}.")
+ip_addr = requests.get('http://checkip.amazonaws.com/').text.strip('\n')
+results = requests.get(f"http://ip-api.com/json/{ip_addr}").json()
+lon = results['lon']
+lat = results['lat']
+api_finder_weather = requests.get(f"https://api.weather.gov/points/{lat},{lon}").json()
+found_api = requests.get(api_finder_weather['properties']['forecast']).json()
+print(f"The current weather in your location {results['city']},{results['region']} is {found_api['properties']['periods'][0]['shortForecast'].lower()}.")
